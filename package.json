@@ -1,0 +1,46 @@
+{
+  "name": "sapphire-tide-theme",
+  "displayName": "Sapphire Tide Theme",
+  "description": "Deep sea blue, indigo and pale cyan in coordinated ocean-inspired light and dark themes.",
+  "version": "1.0.0",
+  "publisher": "lilinhuang",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "assets/icon.png",
+  "keywords": [
+    "theme",
+    "light",
+    "dark",
+    "sapphire",
+    "ocean",
+    "blue",
+    "indigo"
+  ],
+  "galleryBanner": {
+    "color": "#112E81",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vaxicy/sapphire-tide-theme"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sapphire Tide Theme Light",
+        "uiTheme": "vs",
+        "path": "./themes/sapphire-tide-light-color-theme.json"
+      },
+      {
+        "label": "Sapphire Tide Theme Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sapphire-tide-dark-color-theme.json"
+      }
+    ]
+  }
+}
